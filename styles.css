@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 #container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 100vh;
     display: grid;
     grid-template-columns: 200px 1fr;
@@ -54,7 +54,7 @@ aside{
     background-color: rgb(233,3 ,3 );
 }
 main{
-    overflow-y: scroll;
+    overflow: auto;
 }
 .search{
     border: 2px solid black;
@@ -90,11 +90,13 @@ main{
     width: 200px;
     height: 200px;
     margin-top: 1rem;
+
 }
 .view iframe{
     width: 100%;
 }
 .view p{
     font-size: 15px;
-    margin-top: 10px;
+    margin-top: 7px;
+    /* padding-top: 5px; */
 }
